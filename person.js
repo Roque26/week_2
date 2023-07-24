@@ -1,4 +1,4 @@
-export class Person{
+ class Person{
     constructor(peso, altura,yearOfBirth){
        this.peso = peso
        this.altura = altura
@@ -21,7 +21,7 @@ export class Person{
     return this.hobbies
     }   
 }
-
+module.exports = {Person}
 
 
 /////////////////////////////////////////////////////////////////////////////////////
